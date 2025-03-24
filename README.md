@@ -51,3 +51,11 @@ https://download.europe.naverlabs.com/ComputerVision/DUSt3R/DUSt3R_ViTLarge_Base
 - `viz_ply.py` - visualizes point cloud file
 - `test_779.py` - compares DUSt3R output for frame 0000000779 from 2013_05_28_drive_0003_sync with KITTI-360 scan ground truth
 - `test_854.py` - compares DUSt3R output for frame 0000000854 from 2013_05_28_drive_0003_sync with KITTI-360 scan ground truth
+
+## Possible things to do
+
+Go to [TODO.md](./TODO.md).
+
+## Experiments plan
+
+Possible experiments plan can be found in [EXPERIMENTS_PLAN.md](./EXPERIMENTS_PLAN.md).
