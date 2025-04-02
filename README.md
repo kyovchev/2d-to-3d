@@ -1,27 +1,53 @@
 # 2D to 3D image AI conversion
 
-## Installation of DUST3R: https://github.com/naver/dust3r
+## Installation of DUSt3R: https://github.com/naver/dust3r
 
-Clone DUSt3R
+1. `cd` to the cloned root folder of this repo
 
-```
-git clone --recursive https://github.com/naver/dust3r
-cd dust3r
-```
+2. Clone DUSt3R. Note: it is cloned to `dust3r` folder which is gitignored
 
-Create conda environment with python=3.11
+   ```
+   git clone --recursive https://github.com/naver/dust3r
+   ```
 
-```
-conda activate <environment-name>
-conda install pytorch torchvision pytorch-cuda=12.1 -c pytorch -c nvidia # use the correct version of cuda for your system
-pip install -r requirements.txt
-```
+3. Create new conda environment
 
-Optional: `pip install -r requirements_optional.txt`
+   ```
+   conda create -n dust3r python=3.9
+   conda activate dust3r
+   ```
+
+4. Install PyTorch as described here [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/) or if you have CUDA: `pip install --upgrade torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126`
+
+5. Install DUSt3R requirements:
+
+   ```
+   cd dust3r
+   pip install -r requirements.txt
+   ```
+
+6. Install the optional requirements: `pip install -r requirements_optional.txt`
+
+7. You can make the dust3r a package within the local environment by copying the content of `make-package` folder to the cloned `dust3r` folder and then install it to the environment by executing `pip install -e .` from the outer dust3r folder.
+
+8. Install Jupyter: `pip install jupyter`
+
+9. Execute the example notebook [`./notebooks/test-DUSt3R.ipynb`](./notebooks/test-DUSt3R.ipynb) to validate that DUSt3R is installed correctly:
+
+   ```
+   cd notebooks
+   jupyter-lab
+   ```
+
+   Open the notebook `test-DUSt3R.ipynb` and execute all cells.
 
 ## Run the demo
 
-`python demo.py --model_name DUSt3R_ViTLarge_BaseDecoder_512_dpt`
+```
+conda activate dust3r
+cd dust3r
+python demo.py --model_name DUSt3R_ViTLarge_BaseDecoder_512_dpt`
+```
 
 ## KITTI-360
 
