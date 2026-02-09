@@ -1,0 +1,20 @@
+DUSt3R, Copyright (c) 2024-present Naver Corporation, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license.
+
+A summary of the CC BY-NC-SA 4.0 license is located here:
+	https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+The CC BY-NC-SA 4.0 license is located here:
+	https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+---
+
+KITTI-360 datasets and benchmarks on this page are copyright by us and published under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. This means that you must attribute the work in the manner specified by the authors, you may not use this work for commercial purposes and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same license. Per GDPR requirements, to download and to use the data you need to register and specify the intended purpose of using the dataset.
+Citation
+If you find our dataset useful, please cite the following paper:
+
+@article{Liao2022PAMI,
+   title =  {{KITTI}-360: A Novel Dataset and Benchmarks for Urban Scene Understanding in 2D and 3D},
+   author = {Yiyi Liao and Jun Xie and Andreas Geiger},
+   journal = {Pattern Analysis and Machine Intelligence (PAMI)},
+   year = {2022},
+}
